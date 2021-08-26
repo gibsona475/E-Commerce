@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');
-
+//Cross-Reference Table 
 class ProductTag extends Model {}
 
 ProductTag.init(
